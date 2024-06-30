@@ -16,6 +16,7 @@ function App(){
           <Navbar/>
           <Routes>
             <Route path='/' element={<Characters/>}/>
+            <Route path='/Rick-and-Morty-React-Web-Site' element={<Characters />} />
             <Route path='/characters' element={<Characters/>}/>
             <Route path='/episodes' element={<Episodes/>}/>
             <Route path='/locations' element={<Locations/>}/>
